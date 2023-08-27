@@ -43,3 +43,9 @@ executable backend
                  , time
     hs-source-dirs:   app
     default-language: Haskell2010
+    other-modules:
+        Routes
+        Db
+        Types
+        Queries
+        UserInstance
