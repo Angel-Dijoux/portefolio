@@ -29,6 +29,17 @@ executable backend
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.13.0.0
+    build-depends: base ^>=4.13.0.0
+                 , aeson
+                 , scotty
+                 , warp
+                 , http-types
+                 , blaze-html
+                 , wai-extra
+                 , wai-middleware-static
+                 , bytestring 
+                 , postgresql-simple
+                 , dotenv
+                 , time
     hs-source-dirs:   app
     default-language: Haskell2010
